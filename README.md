@@ -1,5 +1,5 @@
 <div align="center">
-<h2>🦎Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h2>
+<h2>General HD Map Detection with SD Map Prior Distribution</h2>
 
 **Ziming Liu**<sup>1</sup> · **Leichen Wang**<sup>1</sup> · **Xingtao Hu**<sup>1</sup> · **Yang Ge**<sup>1</sup> · **Xinrun Li**<sup>1</sup> <br>
 
