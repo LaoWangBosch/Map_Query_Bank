@@ -1,7 +1,7 @@
 <div align="center">
 <h2>General HD Map Detection with SD Map Prior Distribution</h2>
 
-**Ziming Liu**<sup>1</sup> · **Leichen Wang**<sup>1</sup> · **Xingtao Hu**<sup>1</sup> · **Yang Ge**<sup>1</sup> · **Xinrun Li**<sup>1</sup> <br>
+**Ziming Liu**<sup>1</sup> · **Leichen Wang**<sup>1</sup> · **Xingtao Hu**<sup>1</sup> · **Ge Yang**<sup>1</sup> · **Xinrun Li**<sup>1</sup> <br>
 
 <sup>1</sup>Bosch Corporate Research <br>
 
