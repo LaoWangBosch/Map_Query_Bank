@@ -49,5 +49,24 @@ Then, you can download our extended SDMap subset from the  [Google Drive](https:
 ## Qualitative analysis of extended sdmap subset
 
 
-add Qualitative analysis xxx.png
+The following images showcase the comparison between the original SDMap and the modified SDMap for four different scenarios.
 
+- **Gray dashed lines** represent the ground truth HDMap.
+- **Colored solid lines** represent the SDMap.
+
+---
+
+#### Scenario 1:
+![Results Comparison 1](./figs/results_compare_1.jpg)
+
+---
+
+#### Scenario 2:
+![Results Comparison 2](./figs/results_compare_2.jpg)
+
+---
+
+#### Scenario 3:
+![Results Comparison 3](./figs/results_compare_3.jpg)
+
+---
