@@ -57,7 +57,7 @@ The following images showcase the comparison between the original SDMap and the 
 ---
 
 #### Scenario 1:
-![Results Comparison 1](./figs/results_compare_1.png)
+![Results Comparison 1](./figs/results_compare_1.jpg)
 
 ---
 
@@ -68,6 +68,21 @@ The following images showcase the comparison between the original SDMap and the 
 
 #### Scenario 3:
 ![Results Comparison 3](./figs/results_compare_3.png)
+
+---
+
+#### Original vs Modified SDMap (Animated Comparison):
+
+
+- **Left GIF**: Original SDMap
+- **Right GIF**: Modified SDMap
+
+<table>
+  <tr>
+    <td><img src="./gifs/sample_gif_ori.gif" alt="Original SDMap Scenario 4" width="400"></td>
+    <td><img src="./gifs/sample_gif_modified.gif" alt="Modified SDMap Scenario 4" width="400"></td>
+  </tr>
+</table>
 
 ---
 
