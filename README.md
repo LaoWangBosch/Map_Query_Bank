@@ -1,7 +1,7 @@
 <div align="center">
 <h2>General HD Map Detection with SD Map Prior Distribution</h2>
 
-**Ziming Liu**<sup>1</sup> · **Leichen Wang**<sup>1</sup> · **Xingtao Hu**<sup>1</sup> · **Yang Ge**<sup>1</sup> · **Xinrun Li**<sup>1</sup> <br>
+**Ziming Liu**<sup>1</sup> · **Leichen Wang**<sup>1</sup> · **Xingtao Hu**<sup>1</sup> · **Ge Yang**<sup>1</sup> · **Xinrun Li**<sup>1</sup> <br>
 
 <sup>1</sup>Bosch Corporate Research <br>
 
@@ -62,11 +62,82 @@ The following images showcase the comparison between the original SDMap and the 
 ---
 
 #### Scenario 2:
-![Results Comparison 2](./figs/results_compare_2.jpg)
+![Results Comparison 2](./figs/results_compare_2.png)
 
 ---
 
 #### Scenario 3:
-![Results Comparison 3](./figs/results_compare_3.jpg)
+![Results Comparison 3](./figs/results_compare_3.png)
+
+---
+
+#### Original vs Modified SDMap (Animated Comparison):
+
+
+- **Left GIF**: Original SDMap
+- **Right GIF**: Modified SDMap
+
+<table>
+  <tr>
+    <td><img src="./gifs/sample_gif_ori.gif" alt="Original SDMap Scenario 4" width="400"></td>
+    <td><img src="./gifs/sample_gif_modified.gif" alt="Modified SDMap Scenario 4" width="400"></td>
+  </tr>
+</table>
+
+---
+
+### Using GUI to Edit SDMap
+
+This section explains the step-by-step process of editing an SDMap using the GUI interface. Below are the detailed steps:
+
+---
+
+#### 1. Basic Interface
+
+The GUI provides a user-friendly interface to load and edit SDMaps. Upon starting the application, you will see the following main screen:
+
+![Basic Interface](./figs/gui1.png)
+
+---
+
+#### 2. Select `log_id`
+
+Select the desired `log_id` corresponding to the specific SDMap you wish to edit.
+
+![Select Log ID](./figs/gui2.png)
+
+---
+
+#### 3. Edit the Number of Lanes
+
+Select a road in the map to modify the lane number. The lane number field is editable, allowing you to input the correct number of lanes.
+
+![Edit Lane Number](./figs/gui3.png)
+
+---
+
+#### 4. Delete a Road
+
+To remove a road from the map, select the road and click the **Delete Road** button.
+
+![Delete Road](./figs/gui.png)
+
+---
+
+#### 5. Save Edited Lane Numbers
+
+After making changes to the lane numbers or deleting roads, the updated information will be written back to the SDMap.
+
+![Save Edited Lane Numbers](./figs/gui5.png)
+![Save Edited Lane Numbers](./figs/gui4.png)
+
+---
+
+#### 6. Jump to the Next `log_id`
+
+Once you've finished editing the current `log_id`, click the **Next** button to proceed to the next map for editing. This allows for efficient processing of multiple maps.
+
+![Jump to Next Log ID](./figs/gui6.png)
+![Jump to Next Log ID](./figs/gui7.png)
 
 ---
