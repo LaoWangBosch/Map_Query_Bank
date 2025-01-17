@@ -62,12 +62,12 @@ The following images showcase the comparison between the original SDMap and the 
 ---
 
 #### Scenario 2:
-![Results Comparison 2](./figs/results_compare_2.png)
+![Results Comparison 2](./figs/results_compare_2.jpg)
 
 ---
 
 #### Scenario 3:
-![Results Comparison 3](./figs/results_compare_3.png)
+![Results Comparison 3](./figs/results_compare_3.jpg)
 
 ---
 
