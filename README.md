@@ -1,5 +1,5 @@
 <div align="center">
-<h2>General HD Map Detection with SD Map Prior Distribution</h2>
+<h2>Map Query Bank: A New Map Representation for Online Map Generation in Autonomous Driving</h2>
 
 **Ziming Liu**<sup>1</sup> · **Leichen Wang**<sup>1</sup> · **Xingtao Hu**<sup>1</sup> · **Ge Yang**<sup>1</sup> · **Xinrun Li**<sup>1</sup> <br>
 
