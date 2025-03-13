@@ -6,17 +6,15 @@
 
 <sup>1</sup> AID-OMG Team, Bosch Research, Shanghai, China, <sup>2</sup> University of Stuttgart, Stuttgart, Germany, <sup>3</sup> Newcastle University, Newcastle upon Tyne, England, <sup>4</sup> Beijing Institute of Technology, Beijing, China 
 
-> **submitted to IEEE Robotics and Automation Letters (RA-L)**
+**Submitted to IEEE Robotics and Automation Letters (RA-L)**
+
+[![📄 Paper](https://img.shields.io/badge/Paper-Coming_Soon-blue?logo=arxiv)](https://arxiv.org/) &nbsp;[![🗂️ Extended OpenLaneV2 SDMap](https://img.shields.io/badge/Google%20Drive-OpenLaneV2%20SDMap-green?logo=google-drive)](https://drive.google.com/drive/folders/1L5qAiqbBcjK14312f6bk2BQam-prd5YB?usp=sharing) &nbsp;[![🚀 Demo](https://img.shields.io/badge/Demo-Coming_Soon-orange?logo=github)](https://github.com/)
 
 </div>
 
-<!-- >
-[\[Arxiv\]](https://arxiv.org/abs/2401.06614) [\[Paper\]](https://arxiv.org/pdf/2401.06614.pdf) [\[Project Page\]](https://[vveicao.github.io/projects/Motion2VecSets/](https://github.com/xiaowang12345/OMG_SD_map_prior_distribution))
--->
-
 ---
 
-## 🚗 Overview
+## Overview
 
 **High-definition (HD) maps** are essential for autonomous driving, providing the detailed and accurate map information needed for **planning** and **navigation**.  
 However, building and maintaining HD maps is **complex**, **expensive**, and **time-consuming**, making it difficult to scale across diverse environments.
@@ -25,7 +23,7 @@ To address this challenge, we propose a  **Online Map Generation (OMG)** framewo
 
 ---
 
-## 📦 Our Contributions
+## ✨ Our Contributions
 
 ✅ **Generalizable MQBank**  
 - A new map representation that learns **feature embeddings** rather than relying on fixed position encoding.  
@@ -55,13 +53,11 @@ To address this challenge, we propose a  **Online Map Generation (OMG)** framewo
 We release our extended OpenLaneV2 Dataset with high-quality SD map annotations:  
 
 ### 🔗 Download Links
-| Resource                     | Link                                                                                         |
-|------------------------------|----------------------------------------------------------------------------------------------|
-| OpenLaneV2 Dataset        | [GitHub Link](https://github.com/OpenDriveLab/OpenLane-V2)                                  |
-| Our Extended SD Map Subset (train)| [Google Drive](https://drive.google.com/file/d/1VRbxdNHST65RZoQC-215Lfu4tsQ7x1iK/view?usp=sharing) |
-| Our Extended SD Map Subset (val)| [Google Drive](https://drive.google.com/file/d/1Eswvf_RUdRRYMTuXcGRIYdmK5L50LyMc/view?usp=sharing) |
 
-
+| Resource                  | Link                                                                                                                                      |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| OpenLaneV2 Dataset        | [![🔗 OpenLaneV2 Dataset](https://img.shields.io/badge/GitHub-OpenLaneV2-blue?logo=github)](https://github.com/OpenDriveLab/OpenLane-V2) |
+| Our Extended SD Map Subset| [![🗂️ Extended OpenLaneV2 SDMap](https://img.shields.io/badge/Google%20Drive-OpenLaneV2%20SDMap-green?logo=google-drive)](https://drive.google.com/drive/folders/1L5qAiqbBcjK14312f6bk2BQam-prd5YB?usp=sharing) |
 
 ### 📁 Dataset Structure
 
@@ -98,14 +94,14 @@ The following images showcase the comparison between the original SDMap and the 
 
 
 #### Scenario 1:
-![Results Comparison 1](./figs/results_compare_1.jpg)
+![Results Comparison 1](assets/figs/results_compare_1.jpg)
 
 
 #### Scenario 2:
-![Results Comparison 2](./figs/results_compare_2.jpg)
+![Results Comparison 2](assets/figs/results_compare_2.jpg)
 
 #### Scenario 3:
-![Results Comparison 3](./figs/results_compare_3.jpg)
+![Results Comparison 3](assets/figs/results_compare_3.jpg)
 
 ---
 
@@ -117,8 +113,8 @@ The following images showcase the comparison between the original SDMap and the 
 
 <table>
   <tr>
-    <td><img src="./gifs/sample_gif_ori.gif" alt="Original SDMap Scenario 4" width="400"></td>
-    <td><img src="./gifs/sample_gif_modified.gif" alt="Modified SDMap Scenario 4" width="400"></td>
+    <td><img src="assets/gifs/sample_gif_ori.gif" alt="Original SDMap Scenario 4" width="400"></td>
+    <td><img src="assets/gifs/sample_gif_modified.gif" alt="Modified SDMap Scenario 4" width="400"></td>
   </tr>
 </table>
 
@@ -134,7 +130,7 @@ This section explains the step-by-step process of editing an SDMap using the GUI
 
 The GUI provides a user-friendly interface to load and edit SDMaps. Upon starting the application, you will see the following main screen:
 
-![Basic Interface](./figs/gui1.png)
+![Basic Interface](assets/figs/gui1.png)
 
 ---
 
@@ -142,7 +138,7 @@ The GUI provides a user-friendly interface to load and edit SDMaps. Upon startin
 
 Select the desired `log_id` corresponding to the specific SDMap you wish to edit.
 
-![Select Log ID](./figs/gui2.png)
+![Select Log ID](assets/figs/gui2.png)
 
 ---
 
@@ -150,7 +146,7 @@ Select the desired `log_id` corresponding to the specific SDMap you wish to edit
 
 Select a road in the map to modify the lane number. The lane number field is editable, allowing you to input the correct number of lanes.
 
-![Edit Lane Number](./figs/gui3.png)
+![Edit Lane Number](assets/figs/gui3.png)
 
 ---
 
@@ -158,7 +154,7 @@ Select a road in the map to modify the lane number. The lane number field is edi
 
 To remove a road from the map, select the road and click the **Delete Road** button.
 
-![Delete Road](./figs/gui.png)
+![Delete Road](assets/figs/gui.png)
 
 ---
 
@@ -166,8 +162,8 @@ To remove a road from the map, select the road and click the **Delete Road** but
 
 After making changes to the lane numbers or deleting roads, the updated information will be written back to the SDMap.
 
-![Save Edited Lane Numbers](./figs/gui5.png)
-![Save Edited Lane Numbers](./figs/gui4.png)
+![Save Edited Lane Numbers](assets/figs/gui5.png)
+![Save Edited Lane Numbers](assets/figs/gui4.png)
 
 ---
 
@@ -175,8 +171,8 @@ After making changes to the lane numbers or deleting roads, the updated informat
 
 Once you've finished editing the current `log_id`, click the **Next** button to proceed to the next map for editing. This allows for efficient processing of multiple maps.
 
-![Jump to Next Log ID](./figs/gui6.png)
-![Jump to Next Log ID](./figs/gui7.png)
+![Jump to Next Log ID](assets/figs/gui6.png)
+![Jump to Next Log ID](assets/figs/gui7.png)
 
 ---
 ## 📖 Citation
