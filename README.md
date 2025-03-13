@@ -23,7 +23,7 @@ To address this challenge, we propose a  **Online Map Generation (OMG)** framewo
 
 ---
 
-## 📦 Our Contributions
+## ✨ Our Contributions
 
 ✅ **Generalizable MQBank**  
 - A new map representation that learns **feature embeddings** rather than relying on fixed position encoding.  
