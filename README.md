@@ -1,5 +1,5 @@
 <div align="center">
-<h2>Map Query Bank: A New Map Representation for Online Map Generation in Autonomous Driving</h2>
+<h2>Control Map Distribution using Map Query Bank for Online Map Generation</h2>
 
 
 **Ziming Liu**<sup>1</sup>, **Leichen Wang**<sup>1</sup>, **Ge Yang**<sup>1,2</sup>, **Xinrun Li**<sup>1,3</sup>, **Xingtao Hu**<sup>1</sup>, **Hao Sun**<sup>1</sup>, **Guanyu Gao**<sup>4</sup>  
@@ -8,7 +8,7 @@
 
 **Submitted to IEEE Robotics and Automation Letters (RA-L)**
 
-[![📄 Paper](https://img.shields.io/badge/Paper-Coming_Soon-blue?logo=arxiv)](https://arxiv.org/) &nbsp;[![🗂️ Extended OpenLaneV2 SDMap](https://img.shields.io/badge/Google%20Drive-OpenLaneV2%20SDMap-green?logo=google-drive)](https://drive.google.com/drive/folders/1L5qAiqbBcjK14312f6bk2BQam-prd5YB?usp=sharing) &nbsp;[![🚀 Demo](https://img.shields.io/badge/Demo-Coming_Soon-orange?logo=github)](https://github.com/)
+[![📄 Paper](https://img.shields.io/badge/Paper-arXiv%3A2504.03868-blue?logo=arxiv)](https://arxiv.org/pdf/2504.03868) &nbsp;[![🗂️ Extended OpenLaneV2 SDMap](https://img.shields.io/badge/Google%20Drive-OpenLaneV2%20SDMap-green?logo=google-drive)](https://drive.google.com/drive/folders/1L5qAiqbBcjK14312f6bk2BQam-prd5YB?usp=sharing) &nbsp;[![🚀 Demo](https://img.shields.io/badge/Demo-Coming_Soon-orange?logo=github)](https://github.com/)
 
 </div>
 
